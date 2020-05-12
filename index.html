@@ -1,0 +1,141 @@
+<!DOCTYBE html>
+<html>
+<head>
+    <title>Бренд-Инструмент</title>
+    <title>это сервис по скупке и продаже строительного инструмента</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./img/Banner-PoWER-TOOLS 1.png" type="image/ico"/>
+      <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<main class="main">
+		<section class="section1">
+			<div class="section1__content">
+				<div class="section1__text">
+					<h1>Бренд-Инструмент</h1>
+					<h3>это сервис по скупке и продаже строительного инструмента</h3>
+					<a href="tel:8-800-550-78-85">8-800-550-78-85</a>
+				</div>
+				<div class="section1__text2">
+					<p>Доступные цены, склад в Москве, возможность консультаций</p>
+				</div>
+				<div class="section1__button">
+					<button id="open__modal">Записаться бесплатно</button>
+				</div>
+			</div>
+		</section>
+		<section class="section2">
+			<div class="section2__content">
+				<div class="box1">
+					<figure class="section2__img">
+        				<img src="./img/box 1.png" alt="img">
+    				</figure>
+    				<p class="section2__img__text">Более 250 000 товаров доступно сегодня</p>
+				</div>
+				<div class="box2">
+					<figure class="section2__img">
+        				<img src="./img/monet 1.png" alt="img">
+    				</figure>
+    				<p class="section2__img__text">Выгодные цены относительно конкурентов</p>
+				</div>
+				<div class="box3">
+					<figure class="section2__img">
+        				<img class="img3" src="./img/calendar 1.png" alt="img">
+    				</figure>
+    				<p class="section2__img__text">Работаем 7 дней в неделю</p>
+				</div>
+				<div class="box4">
+					<figure class="section2__img">
+        				<img class="img4" src="./img/discount 1.png" alt="img">
+    				</figure>
+    				<p class="section2__img__text">Система лояльности постоянным клиентам</p>
+				</div>
+				<div class="box5">
+					<figure class="section2__img">
+        				<img src="./img/technology 1.png" alt="img">
+    				</figure>
+    				<p class="section2__img__text">Профессиональные консультанты помогут ежедневно</p>
+				</div>
+			</div>
+		</section>
+		<section class="section3">
+			<div class="section3__content">
+				<div class="section3__content__text1">
+					<p>«БРЕНД-Инструмент» – это сервис по скупке и продаже строительного инструмента бывшего в употреблении.</p>
+				</div>
+				<div class="section3__content__text2">
+					<p>
+						Если у Вас стройка, работа в цеху, или просто мелкий ремонт в доме или квартире, то ручной и электроинструмент  будет для Вас главным помощником. 
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="section4">
+				<div class="section4__text1">
+					<p>При единоразовой покупке на сумму свыше:</p>
+				</div>
+				<div class="section4__box__content">
+					<div class="section4__box1">
+						<p>100 000 рублей-скидка 20%</p>
+					</div>
+					<div class="section4__box2">
+						<p>500 000 рублей-скидка 25%</p>
+					</div>
+					<div class="section4__box3">
+						<p>1000000 рублей-скидка 30%</p>
+					</div>
+				</div>
+		</section>
+		<section class="section5">
+			<div class="section5__content">
+				<div class="section5__text1">
+					<p>Оставте ваш номер телефона и мы ответим на все ваши вопросы</p>
+				</div>
+				<div class="section5__label__grup">
+					<form action="#">
+  						<label for="tel"></label>
+ 						 	<input class="section5__tel" type="tel" id="phone" name="tel[]"  data-phonemask="+7 (___)__-___-___" placeholder="Ваш номер телефона" pattern="2-[0-9]{3}-[0-9]{3}" required/>
+ 						<label for="submit"></label>
+  							<input class="section5__submit" type="submit" name="отправить" />
+					</form>	
+				</div>
+				<div class="section5__shadow"></div>
+			</div>
+		</section>
+		<section class="section6">
+			<div class="section6__content">
+				<div class="section6__tex1">
+					<p>ОГРН: 315246800010925</p>
+				</div>
+				<div class="section6__tex2">
+					<a href="tel:8 (800) 100-41-88">Бесплатный телефон: 8 (800) 100-41-88</a>
+				</div>
+				<div class="section6__text3">
+					<p>Политика конфиденциальности</p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!--modal-->
+	<div id="modal_email" class="d-none modal__email">
+		<div class="button">
+			<button id="close">x</button>
+		</div>
+		<div class="email">
+			<label for="email"></label>
+			<i class="far fa-envelope"></i>
+			<input  class="input" type="email" id="email" name="email" placeholder="Введите ваш email" />
+		</div>
+		<div class="model__button">
+			<button class="modal_email">записаться</button>
+		</div>
+	</div>
+<script src="js/script.js"></script>
+<script src="js/jquery.maskedinput.js"></script>
+</body>
+</html>
